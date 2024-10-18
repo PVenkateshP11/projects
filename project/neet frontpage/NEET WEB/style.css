@@ -1,0 +1,130 @@
+body {
+    background-color: rgb(15, 15, 79);
+    font-family: 'Finlandica',sans-serif;
+   
+    margin: 0px;
+    padding:0px; 
+    
+  }  
+
+
+.left {
+    
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+
+}
+.left img{
+    height: 80px;
+    width: 100px;
+
+}
+ 
+.left div{
+    line-height: 20px solid black;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.center {
+    background-color: aliceblue;
+     
+    display: grid;
+    width: 80%;
+    margin: 5px auto;
+    font-size: xx-large;
+    text-align: center;
+
+}  
+
+.right {
+    
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+
+}
+.right img{
+    height: 80px;
+    width: 100px;
+}
+.navbar{
+    display: inline-block;
+
+}
+.navbar li{
+    display: inline-block;
+    font-size: 10px;
+    font-style:arial;
+    text-align: center;
+
+}
+.navbar li a{
+    color: black;
+    text-decoration-color: rgb(31, 31, 35) ;
+    padding:25px 20px;
+
+}
+.navbar li a:hover{
+    text-decoration-color: rgb(24, 24, 28);
+    color:rgb(236, 12, 12);
+}
+.navbar li a.active{
+    text-decoration-color: rgb(16, 16, 17);
+    
+}
+ 
+
+
+ 
+.container{
+    background-color: aliceblue;
+     border: 0px solid black; 
+    margin: 100px 80px ;
+    padding: 75px;
+    width:30%;
+    border-radius: 20px;
+} 
+
+.center img{
+    height: 80px;
+    width: 70px;
+    left: 10px;
+    top: 2px;
+    display: inline;
+
+} 
+
+.middleone {
+   margin: 80px;
+   padding: 50px;
+    background-color: aliceblue;
+    display: inline-block;
+    position: absolute;
+    height: 70%;
+    width: 40%;
+    
+}
+.middleend{
+    /* background-color: aliceblue; */
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    margin: 120px;
+    padding: 40px;
+       height: 30%;
+     width: 25%; 
+} 
+.middleend img{
+    height:120%;
+    width: 85%;
+}
+
+
+
+
